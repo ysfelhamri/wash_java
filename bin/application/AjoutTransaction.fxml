@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="610.0" style="-fx-background-color: #606060;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="128.0" layoutY="127.0" style="-fx-font-weight: 700;" text="selection du client:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="212.0" style="-fx-font-weight: 700;" text="selection d'employe:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="110.0" layoutY="154.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="111.0" layoutY="232.0" prefWidth="150.0" />
+      <Label layoutX="356.0" layoutY="127.0" style="-fx-font-weight: 700;" text="selection des services:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="373.0" layoutY="158.0" mnemonicParsing="false" text="CheckBox" textFill="WHITE" />
+   </children>
+</AnchorPane>

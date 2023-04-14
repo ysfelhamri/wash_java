@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296.0" prefWidth="430.0" style="-fx-background-color: #606060;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChngPassController">
+   <children>
+      <Label alignment="CENTER" layoutX="39.0" layoutY="66.0" prefHeight="31.0" prefWidth="164.0" text="Mot de passe actuel :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button defaultButton="true" layoutX="125.0" layoutY="197.0" mnemonicParsing="false" onAction="#chngpass" prefHeight="47.0" prefWidth="193.0" style="-fx-background-color: #505050;" styleClass="txtfield" stylesheets="@application.css" text="Changer mot de passe">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <PasswordField fx:id="pass" layoutX="39.0" layoutY="110.0" prefHeight="47.0" prefWidth="164.0" styleClass="txtfield" stylesheets="@application.css" />
+      <Label alignment="CENTER" layoutX="236.0" layoutY="65.0" prefHeight="31.0" prefWidth="164.0" text="Nouveau mot de passe :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass1" layoutX="236.0" layoutY="109.0" prefHeight="47.0" prefWidth="164.0" styleClass="txtfield" stylesheets="@application.css" />
+      <Label fx:id="erreur" alignment="CENTER" layoutX="-3.0" layoutY="24.0" prefHeight="31.0" prefWidth="437.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button defaultButton="true" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ret" prefHeight="45.0" prefWidth="60.0" style="-fx-background-color: #505050;" styleClass="txtfield" stylesheets="@application.css" text="&lt;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
