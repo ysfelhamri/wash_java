@@ -9,3 +9,6 @@ This is a basic application made to manage a washing shop using Java.
 This is a basic application made to manage a washing shop using Java, it was made for an assignement at university using JavaFX for the GUI elements, the MySQL Connector library for Java to connect to the database and the iText PDF library to generate PDFs.
 
 Note that this application is in French.
+
+# Credits
+This application was done in collaboration with Ismail EL BAKASSI.
